@@ -1,0 +1,18 @@
+.movies {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.count {
+    color: white;
+    font-size: large;
+    margin: 20p 20px;
+}
+
+.empty {
+    color: white;
+    font-size: xx-large;
+    margin: auto;
+}

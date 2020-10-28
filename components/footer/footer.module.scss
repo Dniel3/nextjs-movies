@@ -1,0 +1,9 @@
+$header-color: #555555;
+
+.footer {
+  align-items: center;
+  display: flex;
+  background-color: $header-color;
+  justify-content: center;
+  min-height: 10vh;
+}

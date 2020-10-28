@@ -1,0 +1,13 @@
+.title {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        background-color: transparent;
+        border: transparent;
+        color: white;
+        cursor: pointer;
+    }
+}

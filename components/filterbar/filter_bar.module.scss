@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 5vh;
+
+    input {
+        opacity: 0.3;
+        height: auto;
+        width: 60%;
+        margin: 0 10px;
+    }
+
+
+    button {
+        background-color: #F65261;
+        color: white;
+        height: auto;
+        width: 20%;
+    }
+}

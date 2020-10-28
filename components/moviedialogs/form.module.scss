@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    color: #F65261;
+
+    .buttons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+
+        .reset {
+            color: #F65261;
+            border: solid;
+            background-color: transparent;
+            margin-right: 10px;
+        }
+
+        .submit {
+            background-color: #F65261;
+            color: white;
+            height: auto;
+        }
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+
+        input, textarea {
+            background-color: #424242;
+            color: white;
+            margin-top: 5px;
+        }
+
+        input::placeholder {
+            color: #525252;
+        }
+
+        select {
+            background-color: #424242;
+            color: white;
+            margin-top: 5px;
+        }
+
+        textarea::placeholder {
+            color: #525252;
+        }
+    }
+}

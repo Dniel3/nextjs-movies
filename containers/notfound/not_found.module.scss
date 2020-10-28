@@ -1,0 +1,22 @@
+.container {
+    background-color: #424242;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    height: 100%;
+
+    h5 {
+        margin: auto auto 15px auto;
+    }
+
+    h4 {
+        margin: 0 auto;
+    }
+
+    button {
+        width: 33%;
+        margin: 0 auto auto;
+    }
+}
+

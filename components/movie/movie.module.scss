@@ -1,0 +1,46 @@
+.movie {
+    height: 500px;
+    width: 283px;
+    margin: 10px;
+
+    .poster {
+        height: auto;
+        width: inherit;
+
+        img {
+            height: auto;
+            width: inherit;
+        }
+
+        .menu {
+            bottom: -50px;
+            float: right;
+            position: relative;
+            right: 20px;
+        }
+    }
+
+    .description {
+        color: #FFFFFF;
+        margin-top: 10px;
+
+        .row1 {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 10px;
+
+            .year {
+                
+                border-color: white;
+                border-style: solid;
+                border-width: 0.1px;
+                padding: 2px 5px;
+            }
+        }
+
+        .row2 {
+            display: flex;
+            margin: 0 10px;
+        }
+    }
+}
